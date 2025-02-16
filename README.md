@@ -5,6 +5,7 @@
 - Maven installed (as a plugin in intelliJ IDE and enabled in settings)
 - Chrome browser installed
 - Git installed
+- Amazon.eg account 
 
 ## Setup project:
 - Clone the repo and open it in IntelliJ IDEA IDE.
