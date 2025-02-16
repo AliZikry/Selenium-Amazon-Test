@@ -42,7 +42,7 @@ public class RestAssuredReqresTest {
 
     @Test(priority = 1)
     public void createUser() {
-        String requestBody = "{\"name\": \"John Doe\", \"job\": \"Software Engineer\"}";
+        String requestBody = "{\"name\": \"John Doe\", \"job\": \"Software Engineer\", \"age\": 24}";
         try {
             Response response = given()
                     .contentType(ContentType.JSON)
