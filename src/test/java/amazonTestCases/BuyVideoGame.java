@@ -17,7 +17,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class buyVideoGame {
+public class BuyVideoGame {
     private WebDriver driver;
     private WebDriverWait wait;
     private int countUnder15000 = 0;
