@@ -31,7 +31,7 @@ public class buyVideoGame {
     }
 
     @Test
-    public void amazonLogin() throws InterruptedException, AWTException {
+    public void amazonTest() throws InterruptedException, AWTException {
         driver.navigate().to("https://www.amazon.eg/");
         changeLanguageToEnglish();
         login(System.getenv("AMAZON_EMAIL"), System.getenv("AMAZON_PASSWORD"));
